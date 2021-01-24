@@ -164,8 +164,9 @@ body{
   height: 17px;
   width: 17px;
   position: absolute;
-  top: 109%;
-  left: 8%;
+  top: 113%;
+  left: 24%;
+  z-index: 2;
 }
 
 .guy-hobbybg-1{
@@ -174,12 +175,27 @@ body{
   background-color: red;
   border-radius: 50%;
   position: absolute;
-  top: 30%;
+  top: 112.5%;
+  left: 23.6%;
+  z-index: 1;
+}
+
+.guy-hobbybg-2{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 112%;
+  left: 23.4%;
+  z-index: 0;
 }
 
 .p-box{
   max-width: 220px;
   position: static;
+  margin-left: 300px;
+  margin-top: 38px;
 }
 
 .guy-text{
@@ -189,6 +205,7 @@ body{
     line-height: 1.2;
     text-align: center;
     margin-top: 22px;
+    margin-bottom: 72px;
 }
 
 .guy-name{
@@ -198,6 +215,7 @@ body{
     font-weight: bold;
     line-height: 1.2;  
     text-align: center;
+    margin-top: 25px;
 }
 
 .p-img{

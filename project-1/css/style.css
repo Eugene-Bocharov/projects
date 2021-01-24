@@ -1,0 +1,214 @@
+ /* ------------------------------------------------------- Fons-------------------------------------------------------------- */
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* -------------------------------------------------- End Fons--------------------------------------------------------------  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  height: 1210px;
+}
+
+    /* .header{
+    height: 58%;
+    } */
+
+/* .main{
+  height: 37%;
+}
+
+.footer{
+  height: 51%;
+} */
+/* ----------------------------------------------------- Menu---------------------------------------------------------------- */
+
+.container { 
+  max-width: 1170px; 
+  margin: 0 auto; 
+  padding: 0 15px; 
+} 
+ 
+.header { 
+  padding-top: 38px; 
+  background-size: cover; 
+  background-image: url(../images/h-bg.png);
+} 
+ 
+.navigation { 
+  display: flex; 
+  justify-content: space-around; 
+  margin-bottom: 136 px; 
+} 
+ 
+.logo { 
+  
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-decoration: none;
+} 
+
+.menu { 
+  color: #95e1d3; 
+  display: flex; 
+  align-items: center; 
+} 
+ 
+.menu-item:not(:last-child) { 
+  margin-right: 32px; 
+} 
+
+.menu-item{
+  list-style: none;
+}
+ 
+.menu-item__link { 
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-decoration: none;
+} 
+
+.h-border{
+    position: absolute;
+    top: 35px;
+    left: 75.4%;
+}
+
+.title-1{
+        font-size: 52px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        display: flex;
+        justify-content: center;      
+        margin-top: 323px;
+}
+
+.title-2{
+    font-size: 52px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: 27px;    
+    display: flex;
+    justify-content: center;
+}
+
+.title-3{
+        font-size: 24px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        margin-top: 47px    ;     
+        display: flex;
+        justify-content: center; 
+}
+
+.button-h{
+        background-color: rgb(255, 78, 80);
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.2;   
+        width: 225px;
+        height: 40px;
+        border-radius: 12px;
+        border-color: rgb(255, 78, 80);        
+        margin-top: 39px;
+        margin-bottom: 235px; 
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------------------------------------------End Menu-------------------------------------------------------------- */
+
+/* -------------------------------------------------- Main------------------------------------------------------------------ */
+
+.m-tite-1{
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;    
+  color: red;  
+}
+
+.img-container{
+  display: flex;
+  justify-content: space-around;
+} 
+
+.guy-hobby{
+  background: red;
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  position: absolute;
+  top: 109%;
+  left: 8%;
+}
+
+.guy-hobbybg-1{
+  height: 32px;
+  width: 32px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+}
+
+.p-box{
+  max-width: 220px;
+  position: static;
+}
+
+.guy-text{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.guy-name{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;  
+    text-align: center;
+}
+
+.p-img{
+  display: flex;
+  justify-content: center;
+  margin-left: 51px;
+}
+
+.guy-img{
+  display: flex;
+  justify-content: center;
+  margin-left: 51px;
+  position: static;
+}

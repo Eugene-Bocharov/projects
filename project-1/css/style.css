@@ -144,13 +144,13 @@ body{
 
 /* -------------------------------------------------- Main------------------------------------------------------------------ */
 
-.m-tite-1{
+.m-title-1{
   display: flex;
   justify-content: center;
   font-size: 22px;
   color: rgb(51, 51, 51);
   line-height: 1.2;    
-  color: red;  
+  
 }
 
 .img-container{
@@ -229,4 +229,27 @@ body{
   justify-content: center;
   margin-left: 51px;
   position: static;
+}
+
+/* ---------------------------------------------------End Menu-------------------------------------------------------------- */
+/* ---------------------------------------------------footer-------------------------------------------------------------- */
+.footer{
+  display: flex;
+  justify-content: center;
+}
+
+.f-button{
+  background-color: #fff;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: red;
+  font-weight: bold;
+  line-height: 1.2;   
+  width: 225px;
+  height: 40px;
+  border-radius: 12px;
+  border-color: rgb(255, 78, 80);        
+  margin-top: 39px;
+  margin-bottom: 73px; 
+  border-width: 2px;
 }
